@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-items: center;
+	padding-top: 50px;
+	margin-bottom: 30px;
+
+}
+
+.titel{
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	position: relative;
+	border-radius: 50%;
+    margin-bottom: 150px;
+}
+.titel img {
+    border-radius: 50%;
+    width: 500px;
+    border: 2 black solid;
+}
+
+.titel h1{
+	padding-top: 110px;
+	font-size: 78px;
+}
+.titel p{
+	padding-top: 50px;
+	font-size: 21px;
+}
+.mypoto{
+	
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column; 
+	grid-template-columns: 1fr;
+	position: relative;
+	margin: 50px 5px;
+}
+
+
+.nav li{
+	list-style-type: none;
+	padding: 33px 5px;
+	margin-bottom: 5px;
+	background-color: grey;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+}
+
+.nav h2{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 85px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.nav h3{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 31px;
+	text-align: center;
+}
+.nav p{
+    padding: 10px 10px 10px 80px;
+	font-size: 21px;	
+}
+.lebenslauf h3{
+	 text-align: left;
+	 padding: 10px 10px 10px 80px;
+}
+
+.cv{
+	 padding:0px 0px 10px 80px;
+	 border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.cv h1{
+	text-align: center;
+	font-size: 72px;
+	margin-top: 50px;
+	color: blue;
+}
+
+.cv a{
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+}
+
+.portphoto{
+	margin-top: 80px;
+}
+
+.portphoto .mypoto2{
+	width: 100%;
+    height: 100%;
+    position: relative; 
+
+}
+
+.skills{
+	margin-top: 150px;
+	border-bottom: 2px solid black;
+}
+.skills h1{
+	padding-top: 30px;
+	font-size: 72px;
+	text-align: center;
+	color: rgb(34, 58, 104);
+}
+
+
+.contakt{
+	padding-top: 80px;
+	border-bottom: 2px solid black;
+}
+.contakt h1{
+	padding-top: 30px;
+   text-align: center;
+   font-size: 72px;
+   color: rgb(34, 58, 104);
+}
+
+.container{ 
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.container{
+	padding-top: 160px;
+}
+.container a i{
+	padding: 10px 0px 10px 5px;
+	position: relative;
+	color: rgb(71, 88, 241);
+	font-size: 90px;
+}
+
+.container span{
+	font-size: 50px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
