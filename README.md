@@ -43,4 +43,4 @@
 - Keine Viewport-Elemente im head (5/5)
 
 ### Punkte
-(**36**/100)
+(**73**/100)
